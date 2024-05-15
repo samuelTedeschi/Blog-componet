@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Figtree", sans-serif;
+    margin: 218.5px 538px;
+}
+
+.container{
+    width: 384px;
+    border:hsl(0, 0%, 7%) 1px solid;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 8px 8px 1px hsl(0, 0%, 7%);
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.container:hover{
+    box-shadow: 12px 12px 1px hsl(0, 0%, 7%);
+}
+
+.img-header img{
+    border-radius: 10px;
+    width: auto;
+    height: 200px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+.conteudo-body{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding:0px 24px 0px 24px;
+    gap: 12px;
+}
+
+.categoria{
+    border: 1px solid hsl(47, 88%, 63%);
+    border-radius: 4px;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    text-align: center;
+    font-weight:700;
+    margin: 0;
+    padding: 4px 12px 4px 12px ;
+}
+
+.data{
+    margin: 0;
+    font-weight: 500;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight:800;
+    cursor: pointer;
+}
+
+.title:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.descricao{
+    margin: 0;
+    color: hsl(0, 0%, 50%);
+    padding-bottom: 24px;
+}
+
+.container-autor{
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    gap: 12px;
+}
+
+.container-autor img{
+    width: 32px;
+}
+
+.container-autor p{
+    font-weight:700;
+}
+
